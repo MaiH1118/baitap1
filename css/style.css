@@ -1,0 +1,86 @@
+@charset "utf-8";
+/* CSS Document */
+*{box-sizing: border-box}
+body{
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif"; font-size: 16px; color: #666666; margin: 0
+}
+.img-100{
+	width: 100%; height: auto
+}
+.container1{
+	width: 80%; margin: 0 auto; align-self: center
+}
+.container{
+	width: 100%; margin: 0 auto 
+}
+header{
+	width: 100%; height: 50px; background-color:#cac0b6; margin: 0
+}
+.banner{
+	width: 100%;min-height: 400px; background-color: #cac0b6
+}
+.menu{
+	float: center; padding-top: 15px; 
+}
+.menu a{
+	padding: 40px; text-decoration: none; text-transform: capitalize; color: #996666; font-size: 17px
+}
+.menu a:hover{
+	color: white
+}
+/*xong phan header*/
+.tieu-de{
+	font-size: 50px; font-weight: bold; color: #67564f; font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif"
+}
+
+main{
+	width: 100%; min-height: 500px; clear: both;
+}
+.w-25{
+	width: 25%; padding: 15px; float: left
+}
+.w-40{
+	width: 40%; padding: 15px; float: left
+}
+.w-60{
+	width: 60%; padding: 15px; float: left
+}
+.border{
+	width: 100%; min-height: 200px; border: 1px solid #cac0b6; border-radius: 40px 10px 10px ; text-align: center; margin-top: 0px; background-color: #f9ede4
+}
+.tour{
+	color: #67564f; font-size: 20px; font-weight: 400; font-family: "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif" 
+}
+.price{
+	color: #67564f; font-weight: 700; font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif"
+}
+footer{
+	width: 100%; height: 40px; background-color: #f9ede4; clear: both; text-align: center; color: #67564f; font-size: 17px; line-height: 40px; font-weight: bold
+}
+.mt{
+	margin-bottom: 40px
+}
+.vien-xam{
+	width: 100%; min-height: 300px; border: 1px solid #C4C4C4; border-radius: 5px; padding: 15px; margin-bottom: 20px;
+}
+.form-control{
+	padding: 8px; margin-bottom: 10px; width: 100%; border-radius: 5px
+}
+.btn{
+	padding: 10px 20px; background-color: blue; color: white; border: none; border-radius: 20px; cursor: pointer
+}
+.btn:hover{
+	background-color: blue
+}
+.nhap-lai{
+	padding: 10px 20px; margin-left: 15px; background-color: blue; border: none; color: white; border-radius: 20px; cursor: pointer
+}
+.nhap-lai:hover{
+	background-color: blue
+}
+.text-xanh{
+	color: blue 
+}
+.bo-goc{
+	border-radius: 40px 10px 0px 0px
+}
